@@ -1,6 +1,8 @@
 import Link from "next/link"
 import { Github, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
+export const runtime = "edge";
+
 
 export default function ContactPage() {
   return (

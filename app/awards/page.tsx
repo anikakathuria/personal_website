@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Award } from "lucide-react"
+export const runtime = "edge";
+
 
 export default function AwardsPage() {
   return (

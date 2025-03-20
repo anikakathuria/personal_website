@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Code, Github, Microscope } from "lucide-react"
 import Link from 'next/link'
+export const runtime = "edge";
+
 
 export default function ResearchProjectsPage() {
   return (

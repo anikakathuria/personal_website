@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 export default function InternshipsPage() {
   return (
     <section className="py-12 md:py-16 lg:py-20">

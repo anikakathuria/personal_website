@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { BookOpen, Code, GraduationCap } from "lucide-react"
+export const runtime = "edge";
+
 
 export default function AboutPage() {
   return (
