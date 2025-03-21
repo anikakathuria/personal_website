@@ -7,6 +7,7 @@ export const metadata = {
   description: "Personal website of Anika Kathuria",
 }
 import Link from 'next/link'
+import { MobileNavToggle } from "@/components/mobile-nav-toggle"
 
 export default function RootLayout({
   children,
@@ -19,6 +20,7 @@ export default function RootLayout({
           <div className="flex flex-col min-h-screen">
             <header className="sticky top-0 z-10 backdrop-blur-sm bg-white/75 dark:bg-gray-950/75 border-b">
               <div className="container flex h-16 items-center justify-between">
+                <MobileNavToggle />
                 <div className="font-bold text-xl pl-2">
                   <Link href = "/">Anika Kathuria</Link>
                 </div>
