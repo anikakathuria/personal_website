@@ -15,14 +15,14 @@ export default function ContactPage() {
 
       <div className="flex flex-wrap justify-center gap-4">
         <Button variant="outline" size="lg" className="gap-2" asChild>
-          <Link href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <Link href="https://github.com/anikakathuria" target="_blank" rel="noopener noreferrer">
             <Github className="h-5 w-5" />
             GitHub
           </Link>
         </Button>
 
         <Button variant="outline" size="lg" className="gap-2" asChild>
-          <Link href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.linkedin.com/in/anika-kathuria-1b10931bb/" target="_blank" rel="noopener noreferrer">
             <Linkedin className="h-5 w-5" />
             LinkedIn
           </Link>

@@ -46,13 +46,13 @@ export default function RootLayout({
                 </nav>
                 <div className="flex gap-2">
                   <Button variant="outline" size="icon" className="rounded-full" asChild>
-                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/anikakathuria" target="_blank" rel="noopener noreferrer">
                       <Github className="h-4 w-4" />
                       <span className="sr-only">GitHub</span>
                     </a>
                   </Button>
                   <Button variant="outline" size="icon" className="rounded-full" asChild>
-                    <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/anika-kathuria-1b10931bb/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-4 w-4" />
                       <span className="sr-only">LinkedIn</span>
                     </a>
